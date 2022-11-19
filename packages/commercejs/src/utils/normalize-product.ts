@@ -69,7 +69,7 @@ export function normalizeProduct(
       })) || [],
     price: {
       value: price.raw,
-      currencyCode: 'USD',
+      currencyCode: 'EUR',
     },
     variants: normalizeVariants(
       commercejsProductVariants,
