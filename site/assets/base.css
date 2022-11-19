@@ -20,6 +20,9 @@
   --magenta: #eb367f;
   --violet: #7928ca;
   --violet-dark: #4c2889;
+  --theme: #ffcbdc;
+  --theme-dark: #ff9abc;
+  --theme-light: rgb(255, 231, 239);
   --accent-0: #fff;
   --accent-1: #fafafa;
   --accent-2: #eaeaea;

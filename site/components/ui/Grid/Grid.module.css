@@ -24,7 +24,7 @@
 
   &.filled {
     & > *:nth-child(6n + 1) {
-      @apply bg-violet;
+      @apply bg-theme;
     }
 
     & > *:nth-child(6n + 2) {
@@ -50,7 +50,7 @@
 
   &.filled {
     & > *:nth-child(6n + 1) {
-      @apply bg-violet;
+      @apply bg-theme;
     }
 
     & > *:nth-child(6n + 2) {
@@ -76,7 +76,7 @@
 
   &.filled {
     & > *:nth-child(12n + 1) {
-      @apply bg-violet;
+      @apply bg-theme;
       height: var(--row-height);
     }
 
@@ -100,7 +100,7 @@
 
   &.filled {
     & > *:nth-child(12n + 2) {
-      @apply bg-violet;
+      @apply bg-theme;
     }
 
     & > *:nth-child(12n + 7) {
