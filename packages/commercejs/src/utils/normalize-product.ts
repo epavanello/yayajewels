@@ -63,10 +63,12 @@ export function normalizeProduct(
     slug: permalink,
     path: `/${permalink}`,
     images:
-      assets?.map(({ url, description, filename }) => ({
-        url,
-        alt: description || filename,
-      })) || [],
+      assets?.map(({ url, description, filename }) => {
+        return ({
+          url,
+          alt: description || filename,
+        })
+      }) || [],
     price: {
       value: price.raw,
       currencyCode: '',
