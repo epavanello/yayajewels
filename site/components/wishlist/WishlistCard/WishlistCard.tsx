@@ -84,12 +84,12 @@ const WishlistCard: React.FC<{
         <div>
           <Button
             width={260}
-            aria-label="Add to Cart"
+            aria-label="Aggiungi al carrello"
             type="button"
             onClick={addToCart}
             loading={loading}
           >
-            Add to Cart
+            Aggiungi al carrello
           </Button>
         </div>
       </div>

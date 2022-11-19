@@ -72,7 +72,7 @@ const I18nWidget: FC = () => {
               <div className="flex flex-row justify-end px-6">
                 <button
                   onClick={() => setDisplay(false)}
-                  aria-label="Close panel"
+                  aria-label="Chiudi pannello"
                   className={s.closeButton}
                 >
                   <Cross className="h-6 w-6" />

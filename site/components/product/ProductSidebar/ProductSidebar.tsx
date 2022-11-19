@@ -45,7 +45,7 @@ const ProductSidebar: FC<ProductSidebarProps> = ({ product, className }) => {
         console.error(err)
         setError({
           ...err,
-          message: 'Could not add item to cart. Please try again.',
+          message: 'Impossibile aggiungere al carrello. Prova ancora.',
         })
       }
     }
@@ -64,13 +64,13 @@ const ProductSidebar: FC<ProductSidebarProps> = ({ product, className }) => {
       />
       <div className="flex flex-row justify-between items-center">
         <Rating value={4} />
-        <div className="text-accent-6 pr-1 font-medium text-sm">36 reviews</div>
+        <div className="text-accent-6 pr-1 font-medium text-sm">36 recensioni</div>
       </div>
       <div>
         {error && <ErrorMessage error={error} className="my-5" />}
         {process.env.COMMERCE_CART_ENABLED && (
           <Button
-            aria-label="Add to Cart"
+            aria-label="Aggiungi al carrello"
             type="button"
             className={s.button}
             onClick={addToCart}
@@ -79,7 +79,7 @@ const ProductSidebar: FC<ProductSidebarProps> = ({ product, className }) => {
           >
             {variant?.availableForSale === false
               ? 'Not Available'
-              : 'Add To Cart'}
+              : 'Aggiungi al carrello'}
           </Button>
         )}
       </div>
